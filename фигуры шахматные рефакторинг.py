@@ -13,7 +13,7 @@ delta_y = int(y2) - int(y1)
 name = input()
 coords = []
 def pawn(x1, y1, x2, y2):
-    if delta_x == 0 and (abs(delta_y) == 1 or abs(delta_y))== 2:
+    if delta_x == 0 and abs(delta_y) == 1:
         coords.append(final)
 def horse(x1, y1, x2, y2):
     if (abs(delta_x) == 1 and abs(delta_y) == 2) or (abs(delta_x) == 2 and abs(delta_y) == 1):
